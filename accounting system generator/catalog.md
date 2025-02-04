@@ -2,6 +2,14 @@
 ## added
 + 將會計分錄分錄為T字型。(Given entries in accounting, generate T-Account (the shape is T-shaped) 
 
+For example,
+
+Given 
+
+<img width="387" alt="image" src="https://github.com/user-attachments/assets/2d19f10c-cd4f-44ed-ac36-c1170b7af0a7" />
+
+generating
+
 <img width="310" alt="image" src="https://github.com/user-attachments/assets/042500bf-586f-4cdb-8464-ea6b59c2771e" />
 
 ## code
