@@ -1,3 +1,19 @@
+# version v3.1.0
+## added
++ clear summarized items and account data.
++ refactor the custom menu, adding some option.
+
+<img width="448" alt="image" src="https://github.com/user-attachments/assets/e360eb1e-e65a-4d83-afda-2cb7d64beff8" />
+
+<img width="437" alt="image" src="https://github.com/user-attachments/assets/b5e0e100-1d70-4105-92dc-ab6a43427a1b" />
+
+## code
+For code, see [code in v3.1.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v3.1.0)
+
+## demo
+For demo, see [Demo project of accounting system generator in AppScript in version v3.1.0](https://youtu.be/W19E4ne6JwQ)
+
+
 # version v3.0.0
 ## added
 + 將會計分錄分錄為T字型。(Given entries in accounting, generate T-Account (the shape is T-shaped) 
