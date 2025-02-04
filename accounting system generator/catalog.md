@@ -1,3 +1,18 @@
+# version v3.0.0
+## added
++ 將會計分錄分錄為T字型。(Given entries in accounting, generate T-Account (the shape is T-shaped) 
+
+<img width="310" alt="image" src="https://github.com/user-attachments/assets/042500bf-586f-4cdb-8464-ea6b59c2771e" />
+
+## code
+For version v3.0.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
+
+For code, see [code in v3.0.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v3.0.0)
+
+## demo
+For demo, see [Demo project of accounting system generator in AppScript in version v2.1.0](https://youtu.be/6EdsqAyMIZo)
+https://youtu.be/5ZBWhvQA7VA
+
 # version v2.1.0
 ## added
 + to set values on cell on `總金額` column by setting formula on these cells in AppScript
