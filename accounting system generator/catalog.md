@@ -1,3 +1,24 @@
+# version v2.1.0
+## added
++ to set values on cell on `總金額` column by setting formula on these cells in AppScript
+
+<img width="554" alt="image" src="https://github.com/user-attachments/assets/a25cc9b6-98d5-40da-95a1-61bbf21553c8" />
+
+Formula:
+
+```
+=IF(ISNUMBER($I3),$I3,0)-IF(ISNUMBER($J3),$J3,0)
+```
+
+## code
+For version v2.1.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
+
+For code, see [code in v2.0.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v2.1.0)
+
+## demo
+For demo, see [Demo project of accounting system generator in AppScript in version v2.1.0](https://youtu.be/6EdsqAyMIZo)
+
+
 # version v2.0.0
 ## fix
 I fix some issues that happened in project in v1.0.0 version including
@@ -22,6 +43,11 @@ For code, see [code in v1.2.0](https://github.com/40843245/AppScript-project/tre
 For demo, see [Demo of v1.2.0 project of accounting system generator in AppScript](https://youtu.be/f7EulU76XYI)
 
 # version v1.1.0
+## added
+add button on custom menu.
+
+<img width="358" alt="image" src="https://github.com/user-attachments/assets/f13149d8-0aa8-4224-aceb-a8e28520645f" />
+
 ## code
 For version v1.1.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
 
