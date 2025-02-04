@@ -13,8 +13,6 @@ generating
 <img width="310" alt="image" src="https://github.com/user-attachments/assets/042500bf-586f-4cdb-8464-ea6b59c2771e" />
 
 ## code
-For version v3.0.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
-
 For code, see [code in v3.0.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v3.0.0)
 
 ## demo
@@ -34,8 +32,6 @@ Formula:
 ```
 
 ## code
-For version v2.1.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
-
 For code, see [code in v2.0.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v2.1.0)
 
 ## demo
@@ -49,8 +45,6 @@ I fix some issues that happened in project in v1.0.0 version including
 + 項目統計表
 
 ## code
-For version v2.0.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
-
 For code, see [code in v2.0.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v2.0.0)
 
 ## demo
@@ -58,8 +52,6 @@ For demo, see [Demo project of accounting system generator in AppScript in v2.0.
 
 # version v1.2.0
 ## code
-For version v1.2.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
-
 For code, see [code in v1.2.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v1.2.0)
 
 ## demo
@@ -72,8 +64,6 @@ add button on custom menu.
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/f13149d8-0aa8-4224-aceb-a8e28520645f" />
 
 ## code
-For version v1.1.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
-
 For code, see [code in v1.1.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v1.1.0)
 
 ## demo
@@ -81,8 +71,6 @@ For demo, see [Demo of v1.1.0 project of accounting system generator in AppScrip
 
 # version v1.0.0
 ## code
-For version v1.0.0, see all script in AppScript of [this link](https://script.google.com/u/0/home/projects/1yIGnFDfCEm7W1kefKTGecUJ51AuRh_UVZ74vNhBnWy-K0jtE015v-n3N)
-
 For code, see [code in v1.0.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v1.0.0)
 
 ## demo
