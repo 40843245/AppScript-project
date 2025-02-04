@@ -18,8 +18,8 @@ For version v3.0.0, see all script in AppScript of [this link](https://script.go
 For code, see [code in v3.0.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v3.0.0)
 
 ## demo
-For demo, see [Demo project of accounting system generator in AppScript in version v2.1.0](https://youtu.be/6EdsqAyMIZo)
-https://youtu.be/5ZBWhvQA7VA
+For demo, see [Demo project of accounting system generator in AppScript in version v3.0.0](https://youtu.be/5ZBWhvQA7VA)
+
 
 # version v2.1.0
 ## added
