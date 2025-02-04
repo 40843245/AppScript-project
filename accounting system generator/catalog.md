@@ -1,3 +1,15 @@
+# version v3.2.0
+## added
++ add border for T-account data.
+
+<img width="312" alt="image" src="https://github.com/user-attachments/assets/3199749d-6169-4efe-afb1-63bed866b593" />
+
+## code
+For code, see [code in v3.1.0](https://github.com/40843245/AppScript-project/tree/main/accounting%20system%20generator/v3.2.0)
+
+## demo
+For demo, see [Demo project of accounting system generator in AppScript in version v3.2.0](https://youtu.be/vhDyS92wTy8)
+
 # version v3.1.0
 ## added
 + clear summarized items and account data.
