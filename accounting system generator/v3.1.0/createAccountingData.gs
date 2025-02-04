@@ -1,0 +1,4 @@
+function createAccountingData(){
+  createSummarizedItems();
+  createTShapeItems();
+}
