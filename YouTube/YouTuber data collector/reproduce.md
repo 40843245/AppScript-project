@@ -17,3 +17,6 @@ To create your API key from Google Cloud, see [my notes](https://github.com/4084
 
 ## enable service -- `YouTube Data API v3` for API key
 To enable service -- `YouTube Data API v3` for API key in Google Cloud, see [my notes](https://github.com/40843245/Google-Cloud/blob/main/How%20to/How%20to%20enable%20service%20for%20API%20key%20in%20Google%20Cloud%3F.md)
+
+## get YouTuber's channel ID
+To get YouTuber's channel ID, see [my notes](https://github.com/40843245/YouTube/blob/main/How%20to/How%20to%20look%20at%20YT%20channel%20ID%3F.md) 
