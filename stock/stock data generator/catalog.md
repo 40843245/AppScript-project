@@ -10,3 +10,9 @@ To get stock price,
 2. select `Custom menu` -> `fetch data` -> `fetch stock price`
 
 <img width="440" alt="image" src="https://github.com/user-attachments/assets/b7bb6da2-ff13-4310-8ea6-a67d6269437c" />
+
+## code 
+see [version v1.0.0](https://github.com/40843245/AppScript-project/tree/main/stock/stock%20data%20generator/v1.0.0)
+
+## demo
+see [Demo project of stock data generator in AppScript in version v1.0.0](https://youtu.be/QYPTMA5439I)
