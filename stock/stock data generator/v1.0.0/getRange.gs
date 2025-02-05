@@ -1,8 +1,9 @@
-function createStockPrice() {
-  const stockId = getStockId();
-  const stockPrice = getStockprice(stockId);
-  const numRow = stockPrice.length;
-  const numColumn = stockPrice[0].length;
-  const writtenRange = getRange(numRow,numColumn);
-  writeStockPrice(writtenRange,stockPrice);
+function getRange(numRow,numColumn) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const range = sheet.getRange(4,1,numRow,numColumn);
+  return range;
+}
+
+function testGetRange(){
+  Logger.log(getRange().getA1Notation());
 }
