@@ -1,4 +1,18 @@
 # notice
+## applied
+> [!WARNING]
+> It will only applied to 
+
+## data source
+Data source is from [台灣證卷交易所](https://www.twse.com.tw/zh/index.html).
+
+The fetched url is `https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=202412&stockNo='+ticker`
+
+where 
+
+ticker is the stock ID.
+
+## fetch failed due to security reason
 > [!CAUTION]
 > The script file fetch data from url remotely, thus it may fetch data failed due to security reason.
 >
@@ -16,3 +30,14 @@
 > ```
 > 
 > If you meet this error, visit and contact [台灣證卷交易所](https://www.twse.com.tw/zh/about/company/service-contact.html)
+
+## other way 
+If you fetch data failed, you can see plain text in 
+
+```
+https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=202412&stockNo='+ticker
+```
+
+where 
+
+ticker is the stock ID.
