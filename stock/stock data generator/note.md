@@ -1,7 +1,7 @@
 # notice
 ## applied
 > [!WARNING]
-> It will only applied to 
+> It will only applied to stock in Taiwan.  
 
 ## data source
 Data source is from [台灣證卷交易所](https://www.twse.com.tw/zh/index.html).
