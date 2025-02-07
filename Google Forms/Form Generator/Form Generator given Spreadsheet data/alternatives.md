@@ -10,3 +10,6 @@
 > (you can spend moneysubscribe Google Workspace premium plan and get a domain, or
 >
 > buy it through other way, but one way or another, you have to spend money.)
+
+> [!NOTE]
+> Relatively, it is free to use this project (although it only provides some simply functionalites).
