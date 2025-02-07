@@ -4,8 +4,11 @@ Given data in SpreadSheet, create a new Google Form located at root of Google Dr
 
 ### functionality
 + can add a kind of question.
-+ can set title for question. 
-+ can set options for question. 
++ can set title for question.
++ can set required or not for question.  
++ can set options for question (if the question can have options).
++ can set choices for question (if the question can have choices).
++ can set show other options for question (if the question can have options). 
 + can set help text for question.
 + can enable form as quiz or not.
 + can set points for question.
