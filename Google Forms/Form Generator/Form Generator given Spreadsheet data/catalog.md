@@ -1,8 +1,10 @@
 # v1.0.0
 ## added
-Given data in SpreadSheet, create a new Google Form located at root of Google Drive.
+Given data in SpreadSheet, create a new Google Form located at root of Google Drive. 
 
-> [!NOTE]
+> [!WARNING]
+> remind to user who reproduce this project.
+>
 > `FormApp.create` function create a new Google Form located at root of Google Drive.
 >
 > And thus, it is not easily found the new Google Form.
@@ -24,3 +26,6 @@ Given data in SpreadSheet, create a new Google Form located at root of Google Dr
 > I wanna complain about [AppScript API docs (FormApp.create)](https://developers.google.com/apps-script/reference/forms/form-app#create(String)),
 >
 > the docs did not say that the created Google Form will be located at root of Google Drive.
+
+### functionality
++ can add 
