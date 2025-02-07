@@ -3,4 +3,15 @@
 Given data in SpreadSheet, create a new Google Form located at root of Google Drive. 
 
 ### functionality
-+ can add 
++ can add a kind of question.
++ can set title for question. 
++ can set options for question. 
++ can set help text for question.
++ can enable form as quiz or not.
++ can set points for question.
+
+> [!WARNING]
+> This functionality only applies when enable form as quiz.
+>
+> Otherwise, it will throw error when invoking `questionItem.setPoints` method)
+  
