@@ -49,7 +49,7 @@ If it is other value, it will be unchanged (by default, it is NOT required).
 
 <img width="266" alt="image" src="https://github.com/user-attachments/assets/2fc07131-e232-4c90-8812-93bcf9e16ceb" />
 
-> [!NOTICE]
+> [!WARNING]
 > It only applies to questions.
 >
 > For question type is `SECTION_HEADER`, the value of the cell will be ignored.
@@ -62,7 +62,7 @@ If it is other value, it will be unchanged (by default, it is NOT required).
 
 <img width="914" alt="image" src="https://github.com/user-attachments/assets/ea794cf5-2403-4992-ac2a-4f6f5a7e5c8d" />
 
-> [!NOTICE]
+> [!WARNING]
 > It only applies to Multiple Choice questions or Checkbox questions.
 >
 > For question type is not `MULTIPLE_CHOICE` and `CHECKBOX`, the value of the cell will be ignored.
@@ -73,7 +73,7 @@ If it is other value, it will be unchanged (by default, it is NOT required).
 
 <img width="781" alt="image" src="https://github.com/user-attachments/assets/e1c61418-542b-49b5-84e5-fad042a4f2a0" />
 
-> [!NOTICE]
+> [!WARNING]
 > They only apply to Multi-Choice Grid questions or Checkbox Grid questions
 >
 > For question type is not `GRID` and `CHECKBOX_GRID`, the value of the cell will be ignored.
@@ -112,7 +112,7 @@ If it is other value, it will be unchanged (by default, it is set to show other 
 <img width="283" alt="image" src="https://github.com/user-attachments/assets/448971d5-2de9-4e2d-ac9a-efec2924b308" />
 
 > [!WARNING]
-> If the point of question is coerced to negative number, `item.setPoints` method may throw exception, and stop to execute run the code.
+> If the point of question is coerced to a negative number, `item.setPoints` method may throw exception, and stop to execute run the code.
 
-> [!NOTE]
+> [!WARNING]
 > If the point of the question is NOT a safe integer (i.e. `Number.isSafeInteger` static method in JS returns false), the point will be set to zero. 
