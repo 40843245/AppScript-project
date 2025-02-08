@@ -36,7 +36,7 @@ Given data in SpreadSheet, create a new Google Form located at root of Google Dr
 I wanna complete these functionalities in future release.
 
 1. can set description of form.
-2. can set description of section headers.
+2. ~~can set description of section headers~~ (I found it is impossible, since there are no description of section header in Google Form).
 3. can add a new page and its navigation.
 4. can set correct answers.
 5. can set feedback message when respondent answers correct. 
