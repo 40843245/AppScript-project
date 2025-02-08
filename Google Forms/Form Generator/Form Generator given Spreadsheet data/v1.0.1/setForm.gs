@@ -1,0 +1,16 @@
+function setForm(form) {
+// ...
+  for(let i=QuestionLineEnum.MIN_LINE;i<=QuestionLineEnum.MAX_LINE;i++){
+    // ...
+    const questionBounds = getCell(i,10).getValue();
+    const questionLabelsOfBounds = getCell(i,11).getValue();
+
+    const questionInfo = Object.create({
+      // ...
+      'questionBounds':questionBounds,
+      'questionLabelsOfBounds':questionLabelsOfBounds,
+    });
+    // ...
+  }
+  // ...
+}
