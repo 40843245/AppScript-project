@@ -12,6 +12,12 @@
 
 <img width="963" alt="image" src="https://github.com/user-attachments/assets/6e6d19a8-0e66-4e48-9ba6-5475e62d4558" />
 
+If it is `YES`, it will enable it as quiz.
+
+If it is `NO`, it will disable it as quiz.
+
+If it is other value, it will be unchanged (by default, it disables it as quiz).
+
 4. One can set how many questions will be added and range of cell that will be read for adding question (or section headers)
 
 by `QuestionLineEnum.MIN_LINE` and `QuestionLineEnum.MAX_LINE` in `enum.gs`.
@@ -35,9 +41,49 @@ const QuestionLineEnum = {
 
 6. One can set the question is required or not in second column (start from `B25`)
 
+If it is `YES`, the question is required (i.e. respondant must fill the answer for that question).
+
+If it is `NO`, the question is NOT required.
+
+If it is other value, it will be unchanged (by default, it is NOT required).
+
 <img width="266" alt="image" src="https://github.com/user-attachments/assets/2fc07131-e232-4c90-8812-93bcf9e16ceb" />
 
 > [!NOTICE]
-> It is only applies to questions.
+> It only applies to questions.
 >
 > For question type is `SECTION_HEADER`, the value of the cell will be ignored.
+
+7. One can set the title of questions or section headers in third column (start from `C25`)
+
+<img width="571" alt="image" src="https://github.com/user-attachments/assets/32004263-dec3-4a39-9e29-6458d6ad2a89" />
+
+8. One can set the choice of Multiple Choice questions or Checkbox questions in fourth column (start from `D25`)
+
+<img width="914" alt="image" src="https://github.com/user-attachments/assets/ea794cf5-2403-4992-ac2a-4f6f5a7e5c8d" />
+
+> [!NOTICE]
+> It only applies to Multiple Choice questions or Checkbox questions.
+>
+> For question type is not `MULTIPLE_CHOICE` and `CHECKBOX`, the value of the cell will be ignored.
+
+9. One can set the row grid and column grid of Multi-Choice Grid questions or Checkbox Grid questions in fifth and sixth column (start from `E25`,`F25`) respectively.
+
+<img width="407" alt="image" src="https://github.com/user-attachments/assets/3164f769-e76f-497e-8fde-78c35a4f7a7b" />
+
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/e1c61418-542b-49b5-84e5-fad042a4f2a0" />
+
+> [!NOTICE]
+> They only apply to Multi-Choice Grid questions or Checkbox Grid questions
+>
+> For question type is not `GRID` and `CHECKBOX_GRID`, the value of the cell will be ignored.
+
+10. One can set show other options or not in seventh column (start from `G25`) 
+
+If it is `YES`, it will enable to show other options.
+
+If it is `NO`, it will disable to show other options.
+
+If it is other value, it will be unchanged (by default, it is set to show other options).
+
+<img width="169" alt="image" src="https://github.com/user-attachments/assets/79cdb965-e4e5-40b7-8c25-3a885b2d3d0e" />
