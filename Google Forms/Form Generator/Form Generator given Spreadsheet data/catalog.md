@@ -2,6 +2,8 @@
 ## added
 can add image in any item (by setting question type is `IMAGE`).
 
+<img width="620" alt="image" src="https://github.com/user-attachments/assets/5d2ed81b-5c8b-4e87-94b4-19f1a1d2d310" />
+
 ## code
 ## demo
 see [Demo project of Form Generator given SpreadSheet in AppScript in version v2.0.0](https://youtu.be/wP66A9b8cIo)
