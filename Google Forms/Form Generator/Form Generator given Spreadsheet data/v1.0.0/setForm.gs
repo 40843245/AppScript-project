@@ -36,7 +36,7 @@ function setForm(form) {
       'questionHelpText':questionHelpText,
       'questionPoints':questionPoints,
       'questionBounds':questionBounds,
-      'pageBreakNavigation':pageBreakNavigation,
+      // 'pageBreakNavigation':pageBreakNavigation, // not used in this version
     });
 
     questionInfoArray.push(questionInfo);
