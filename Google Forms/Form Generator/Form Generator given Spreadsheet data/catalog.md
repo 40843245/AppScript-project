@@ -6,7 +6,7 @@
 3. can set labels for bounds of Linear scale question.
    
 ## code
-see [version v1.0.1]
+see [version v1.0.1](https://github.com/40843245/AppScript-project/tree/main/Google%20Forms/Form%20Generator/Form%20Generator%20given%20Spreadsheet%20data/v1.0.1)
 
 ## demo
 see [Demo project of Form Generator given SpreadSheet in AppScript in version v1.0.1](https://youtu.be/_w1wlyA0QS0)
