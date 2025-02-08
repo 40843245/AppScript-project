@@ -1,3 +1,10 @@
+# v2.0.0
+## added
+can add image in any item (by setting question type is `IMAGE`).
+
+## code
+## demo
+see [Demo project of Form Generator given SpreadSheet in AppScript in version v2.0.0](https://youtu.be/wP66A9b8cIo)
 # v1.1.1
 ## changed
 1. If value of field `form image url` on cell `G20` is a empty string, it will not add image (below the section header which is the item on top).
