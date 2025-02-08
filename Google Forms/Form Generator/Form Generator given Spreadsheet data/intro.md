@@ -116,3 +116,39 @@ If it is other value, it will be unchanged (by default, it is set to show other 
 
 > [!WARNING]
 > If the point of the question is NOT a safe integer (i.e. `Number.isSafeInteger` static method in JS returns false), the point will be set to zero. 
+
+## v1.0.1
+1. One can set description of form in cell `D20`.
+2. One can set bounds of Linear scale question in tenth column (start from `J25`).
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/4022984b-0566-4d1d-8831-7699882eb7b1" />
+
+> [!NOTE]
+> Default bounds are `[1,5]`, lowerbound is `1`, upperbound is `5`.
+
+> [!WARNING]
+> It only applies to Linear scale question.
+>
+> For question type is not `SCALE`, it will not set bounds.
+
+> [!WARNING]
+> The value of cell in `bound` field must be two integers seperated by comma.
+>
+> Otherwise, it will not set bounds.
+ 
+3. One can set labels for bounds of Linear scale question.
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/e5cd2842-213f-4534-a283-dd2a6d654940" />
+
+> [!NOTE]
+> Default labels are empty strings.
+
+> [!WARNING]
+> It only applies to Linear scale question.
+>
+> For question type is not `SCALE`, it will not set labels.
+
+> [!WARNING]
+> The value of cell in `bound` field must be two strings seperated by comma.
+>
+> Otherwise, it will not set labels.
