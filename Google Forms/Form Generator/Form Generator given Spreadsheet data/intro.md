@@ -92,16 +92,26 @@ If it is other value, it will be unchanged (by default, it is set to show other 
 
 <img width="182" alt="image" src="https://github.com/user-attachments/assets/2fd79368-333f-4bc2-ba90-7e182d8a98e2" />
 
-> [!NOTICE]
+> [!WARNING]
 > It only applies to questions.
 >
 > For section header (question type is `SECTION_HEADER`), the value of the cell will be ignored.
+
+> [!TIP]
+> What is help text?
+>
+> help text is a kind of tip that helps one to answer the question.
+>
+> Examples of help text are boxed with red pen.
+>
+> <img width="486" alt="image" src="https://github.com/user-attachments/assets/3b130137-b92a-4508-83a5-b9158583b427" />
+
 
 12. One can set points for each question in ninth column (start from `I25`).
 
 <img width="283" alt="image" src="https://github.com/user-attachments/assets/448971d5-2de9-4e2d-ac9a-efec2924b308" />
 
-> [!NOTE]
+> [!WARNING]
 > If the point of question is coerced to negative number, `item.setPoints` method may throw exception, and stop to execute run the code.
 
 > [!NOTE]
