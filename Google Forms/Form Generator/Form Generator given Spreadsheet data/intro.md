@@ -152,3 +152,16 @@ If it is other value, it will be unchanged (by default, it is set to show other 
 > The value of cell in `bound` field must be two strings seperated by comma.
 >
 > Otherwise, it will not set labels.
+
+# v1.1.0
+1. add image at top of the form.
+
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/8e403c44-7f47-4e6e-8f0f-b517d8744ffd" />
+
+One can set the `form image title` on cell `E19`.
+
+One can set the `form image help text` on cell `E20`.
+
+One can set `form image url` on cell `E21`.
+
+The code will fetch the image with given url (on cell `E21`).
