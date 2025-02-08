@@ -1,3 +1,16 @@
+# v1.0.1
+## added
+### functionality
+1. can set description of form.
+2. can set bounds of Linear scale question.
+3. can set labels for bounds of Linear scale question.
+   
+## code
+see [version v1.0.1]
+
+## demo
+see [Demo project of Form Generator given SpreadSheet in AppScript in version v1.0.1](https://youtu.be/_w1wlyA0QS0)
+
 # v1.0.0
 ## added
 Given data in SpreadSheet, create a new Google Form located at root of Google Drive. 
