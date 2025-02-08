@@ -23,8 +23,7 @@ function setForm(form) {
     const questionPoints = getCell(i,9).getValue();
     const questionBounds = getCell(i,10).getValue();
 
-    const pageBreakNavigation = getCell(i,13).getValue();
-
+    // const pageBreakNavigation = getCell(i,13).getValue(); // not used in this version
 
     const questionInfo = Object.create({
       'questionType':questionType,
