@@ -1,3 +1,9 @@
+# v1.1.0
+## added 
+1. add new image below the section header which is the item on top.
+
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/7683ea0d-651d-463a-a9eb-12ccba05a6d0" />
+
 # v1.0.1
 ## added
 ### functionality
