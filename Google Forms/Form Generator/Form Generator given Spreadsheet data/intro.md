@@ -1,6 +1,18 @@
 # intro
 ## v1.0.0
-1. One can set how many questions will be added and range of cell that will be read for adding question (or section headers)
+1. One can set form name in cell `B20`.
+
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/612625cd-03b4-4ff9-9a3a-997e521b79ee" />
+
+2. One can set form title in cell `C20`.
+
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/fd747204-c7ff-44cf-b9e8-e6d258a039ef" />
+
+3. One can enable the form as quiz in cell `E20`.
+
+<img width="963" alt="image" src="https://github.com/user-attachments/assets/6e6d19a8-0e66-4e48-9ba6-5475e62d4558" />
+
+4. One can set how many questions will be added and range of cell that will be read for adding question (or section headers)
 
 by `QuestionLineEnum.MIN_LINE` and `QuestionLineEnum.MAX_LINE` in `enum.gs`.
 
@@ -17,6 +29,15 @@ const QuestionLineEnum = {
 
 <img width="1004" alt="image" src="https://github.com/user-attachments/assets/02d1eae4-8586-4106-9f20-4d89a6ebc367" />
 
-2. One can set kinds of questions in first column (start from `A25`)
+5. One can set kinds of questions in first column (start from `A25`)
 
 <img width="1004" alt="image" src="https://github.com/user-attachments/assets/119b6d86-9f7f-44a7-bf43-44b361e0894a" />
+
+6. One can set the question is required or not in second column (start from `B25`)
+
+<img width="266" alt="image" src="https://github.com/user-attachments/assets/2fc07131-e232-4c90-8812-93bcf9e16ceb" />
+
+> [!NOTICE]
+> It is only applies to questions.
+>
+> For question type is `SECTION_HEADER`, the value of the cell will be ignored.
