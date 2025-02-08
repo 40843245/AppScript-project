@@ -1,3 +1,7 @@
+# v1.1.1
+## changed
+1. If value of field `form image url` on cell `G20` is a empty string, it will not add image (below the section header which is the item on top).
+
 # v1.1.0
 ## added 
 1. add new image below the section header which is the item on top.
