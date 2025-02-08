@@ -87,3 +87,22 @@ If it is `NO`, it will disable to show other options.
 If it is other value, it will be unchanged (by default, it is set to show other options).
 
 <img width="169" alt="image" src="https://github.com/user-attachments/assets/79cdb965-e4e5-40b7-8c25-3a885b2d3d0e" />
+
+11. One can set help text for questions in eigth column (start from `H25`)
+
+<img width="182" alt="image" src="https://github.com/user-attachments/assets/2fd79368-333f-4bc2-ba90-7e182d8a98e2" />
+
+> [!NOTICE]
+> It only applies to questions.
+>
+> For section header (question type is `SECTION_HEADER`), the value of the cell will be ignored.
+
+12. One can set points for each question in ninth column (start from `I25`).
+
+<img width="283" alt="image" src="https://github.com/user-attachments/assets/448971d5-2de9-4e2d-ac9a-efec2924b308" />
+
+> [!NOTE]
+> If the point of question is coerced to negative number, `item.setPoints` method may throw exception, and stop to execute run the code.
+
+> [!NOTE]
+> If the point of the question is NOT a safe integer (i.e. `Number.isSafeInteger` static method in JS returns false), the point will be set to zero. 
