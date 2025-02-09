@@ -177,6 +177,18 @@ One can set image helper text in seventh column.
 
 The code will fetch image from image url in eighteen column.
 
-
-
 <img width="1101" alt="image" src="https://github.com/user-attachments/assets/f20c6820-b05f-4c6b-aa0f-b765f7826530" />
+
+# v3.0.0
+1. One can set feedback for correct answer and incorrect answer (on nineteenth column, twentieth column respectively).
+
+> [!WARNING]
+> It only applies to mutliple choice and checkbox question.
+>
+> For those not mutliple choice and checkbox question, it will not set feedback.
+
+> [!WARNING]
+>
+> For value of cell is empty, or consist of spaces, it will not set feedback.
+
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/b4788636-aa11-4d57-a73a-9126392dc4ba" />
