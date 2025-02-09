@@ -209,7 +209,6 @@ The code will fetch image from image url in eighteen column.
 > If the format is wrong, an error will throw at run time, cause to stop executing the code.
 
 ## example
-
 The following table
 
 | question title | ... | choices (seperated by comma, thus each choice should not contain comma)	| ... | correct answer (represented as an array with boolean) (separated with comma) |	feedback of correct answer | feedback of wrong answer | ... |
@@ -219,3 +218,5 @@ The following table
 will generate the item shown as following figure.
 
 <img width="625" alt="image" src="https://github.com/user-attachments/assets/ccbbd0a7-7c09-44b5-bb0b-b456b3dbf1b9" />
+
+<img width="647" alt="image" src="https://github.com/user-attachments/assets/69f85777-c509-4269-a047-7d8a1aeedc13" />
