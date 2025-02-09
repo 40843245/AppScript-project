@@ -192,3 +192,19 @@ The code will fetch image from image url in eighteen column.
 > For value of cell is empty, or consist of spaces, it will not set feedback.
 
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/b4788636-aa11-4d57-a73a-9126392dc4ba" />
+
+# v3.1.0
+1. One can set correct answer (in twelfth column).
+
+> [!WARNING]
+> It only applies to questions that one can set choices to. Here, there are
+>
+> + Checkbox (question type `CHECKBOX`)
+> + Multiple Choice (question type `MULTIPLE_CHOICE`)
+> + DropDown List (question type `LIST`)
+
+> [!WARNING]
+> The correct answers of a question must be a string that consist of Boolean in JS (i.e. `true` or `false`) separated by comma.
+>
+> If the format is wrong, an error will throw at run time, cause to stop executing the code.
+<img width="625" alt="image" src="https://github.com/user-attachments/assets/ccbbd0a7-7c09-44b5-bb0b-b456b3dbf1b9" />
