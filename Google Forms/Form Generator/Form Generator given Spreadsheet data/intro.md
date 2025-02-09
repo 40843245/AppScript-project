@@ -218,5 +218,4 @@ The following table
 
 will generate the item shown as following figure.
 
-```
 <img width="625" alt="image" src="https://github.com/user-attachments/assets/ccbbd0a7-7c09-44b5-bb0b-b456b3dbf1b9" />
