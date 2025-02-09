@@ -3,17 +3,6 @@ class ItemHandler{
     // ...
     this.updateAnswerFeedBack();
   }
-
-  // ...
-  needToSetCorrectAnswer(){
-    const questionCorrectAnswers = this.questionInfo['questionCorrectAnswers'];
-    if(questionCorrectAnswers.trim() === ''){
-      return false;
-    }
-
-    return true;
-  }
-
   // ...
   updateAnswerFeedBack(){
     if(this.canUpdateAnswerFeedback() == false){
