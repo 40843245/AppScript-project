@@ -165,3 +165,18 @@ One can set the `form image help text` on cell `E20`.
 One can set `form image url` on cell `E21`.
 
 The code will fetch the image with given url (on cell `E21`).
+
+# v2.0.0
+1. One can add image at any item given image url.
+
+<img width="620" alt="image" src="https://github.com/user-attachments/assets/4777bd9a-555a-4280-896c-ff0ed94f7392" />
+
+One can set image title in sixteenth column.
+
+One can set image helper text in seventh column.
+
+The code will fetch image from image url in eighteen column.
+
+
+
+<img width="1101" alt="image" src="https://github.com/user-attachments/assets/f20c6820-b05f-4c6b-aa0f-b765f7826530" />
