@@ -1,3 +1,8 @@
+# v3.0.0
+1. can add feedback for correct answer and incorrect answer.
+
+<img width="598" alt="image" src="https://github.com/user-attachments/assets/5d6b7b22-ff8b-4c55-8dbf-208766a9d5b9" />
+
 # v2.0.0
 ## added
 can add image in any item (by setting question type is `IMAGE`).
