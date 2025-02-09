@@ -207,4 +207,16 @@ The code will fetch image from image url in eighteen column.
 > The correct answers of a question must be a string that consist of Boolean in JS (i.e. `true` or `false`) separated by comma.
 >
 > If the format is wrong, an error will throw at run time, cause to stop executing the code.
+
+## example
+
+The following table
+
+| question title | ... | choices (seperated by comma, thus each choice should not contain comma)	| ... | correct answer (represented as an array with boolean) (separated with comma) |	feedback of correct answer | feedback of wrong answer | ... |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `MULTIPLE_CHOICE` | ... | Can we reassign a variable that is defined with val modifier in Kotlin?	| yes,no | ...		| `false,true`	|`That's great`	| `You can prepare it more for next time`. | ... |
+
+will generate the item shown as following figure.
+
+```
 <img width="625" alt="image" src="https://github.com/user-attachments/assets/ccbbd0a7-7c09-44b5-bb0b-b456b3dbf1b9" />
