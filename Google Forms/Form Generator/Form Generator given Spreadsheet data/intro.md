@@ -188,7 +188,6 @@ The code will fetch image from image url in eighteen column.
 > For those not mutliple choice and checkbox question, it will not set feedback.
 
 > [!WARNING]
->
 > For value of cell is empty, or consist of spaces, it will not set feedback.
 
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/b4788636-aa11-4d57-a73a-9126392dc4ba" />
@@ -222,3 +221,32 @@ will generate the item shown as following figure.
 <img width="625" alt="image" src="https://github.com/user-attachments/assets/ccbbd0a7-7c09-44b5-bb0b-b456b3dbf1b9" />
 
 <img width="647" alt="image" src="https://github.com/user-attachments/assets/69f85777-c509-4269-a047-7d8a1aeedc13" />
+
+# v3.2.0
+1. One can set general feedback (in fifteenth column).
+
+> [!WARNING]
+> It only applies to one of following questions.
+>
+> + paragraph-text (question type `PARAGRAPH_TEXT`)
+> + short-text (question type `TEXT`)
+>
+> For those questions that is belong to above kind, it will not set general feedback.
+
+> [!WARNING]
+> For value of cell is empty, or consist of spaces, it will not set feedback.
+
+## example 
+
+The following table
+
+| question type	| ... | question title | ... | general feedback | ... |
+| --- | --- | --- | --- | --- | --- |
+| `PARAGRAPH_TEXT` | What is JS? | ... | `You can read JS on w3school.`|
+| `TEXT` | ... |	Is JS a programming language with week type? | ... | `You can read JS on w3school.` |
+
+will generate the item shown as following figure.
+
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/32c80106-a172-49d8-9e12-592d76c2354f" />
+
+<img width="629" alt="image" src="https://github.com/user-attachments/assets/2ac3799e-21c5-4cf1-be95-17d708dde2f3" />
