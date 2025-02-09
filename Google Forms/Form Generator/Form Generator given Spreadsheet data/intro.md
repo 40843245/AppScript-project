@@ -202,6 +202,8 @@ The code will fetch image from image url in eighteen column.
 > + Checkbox (question type `CHECKBOX`)
 > + Multiple Choice (question type `MULTIPLE_CHOICE`)
 > + DropDown List (question type `LIST`)
+>
+> For those questions that is belong to above kind, it will not set correct answers.
 
 > [!WARNING]
 > The correct answers of a question must be a string that consist of Boolean in JS (i.e. `true` or `false`) separated by comma.
