@@ -270,3 +270,18 @@ One can add a video with given url in 23th column.
 
 > [!WARNING]
 > If the value of 22th column is empty or consists of spaces, the value of cell in 22th column will be ignored and the item's help text will not be set.
+
+> [!WARNING]
+> The value of 23th column must be video url itself (not displayed text of video url).
+>
+> Otherwise, the url is invalid and it will not set video (through `setVideoUrl` method call).
+
+## example 
+
+The following table
+
+| question type | ... | video title (only available for question type is `VIDEO`)	| video help text (only available for question type is `VIDEO`)	| video url (only available for question type is `VIDEO`) |
+| --- | --- | --- | --- | --- |
+| `VIDEO` | ... | shocking party | lovelive|	`https://www.youtube.com/watch?v=ZhKF0Dh_Wig&list=RDZhKF0Dh_Wig&start_radio=1`.
+
+<img width="505" alt="image" src="https://github.com/user-attachments/assets/a44d8400-0b0f-4248-aaae-a39b38838fec" />
