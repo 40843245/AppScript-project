@@ -250,3 +250,23 @@ will generate the item shown as following figure.
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/32c80106-a172-49d8-9e12-592d76c2354f" />
 
 <img width="629" alt="image" src="https://github.com/user-attachments/assets/2ac3799e-21c5-4cf1-be95-17d708dde2f3" />
+
+# v3.3.0
+1. One can add video as an item through setting question type as `VIDEO`.
+
+One can set item's title in 21th column.
+
+One can set item's help text in 22th column.
+
+One can add a video with given url in 23th column.
+
+> [!WARNING]
+> It only applies for video (for question type `VIDEO`).
+>
+> For those items whose type is not `VIDEO`, the value of cell in 21th, 22th, 23th column will be ignored and the item will not be set.
+
+> [!WARNING]
+> If one of the value in 21th and 23th column (or both) is empty or consist of spaces, the value of cell in 21th, 22th, 23th column will be ignored and the item will not be set.
+
+> [!WARNING]
+> If the value of 22th column is empty or consists of spaces, the value of cell in 22th column will be ignored and the item's help text will not be set.
