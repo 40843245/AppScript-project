@@ -291,6 +291,7 @@ The following table
 2. One can determine that respondant submit the form at most once (identified by email) in cell `M20`.
 3. One can determine to shuffle questions in cell `N20`.
 
+## example
 
 The following table 
 
@@ -300,3 +301,18 @@ will set the form as follows.
 
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/58dfa7ee-7396-4d2c-bea6-f6ff14b46400" />
 
+# v4.1.0
+1. One can determine to enable show progress bar or not when filling the form in cell `L20`.
+2. One can set custom closed message in cell `P20`.
+3. One can determine to enable publishing summary in cell `Q20`.
+4. One can determine to show link once after respondant submitting the form in cell `R20`.
+
+## example
+
+The following table 
+
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/296aba86-f65e-4cef-8c7f-fdd1ff601fa4" />
+
+will set the form as follows.
+
+<img width="582" alt="image" src="https://github.com/user-attachments/assets/bf492ad4-a6b9-42d0-93f5-673793cd9cce" />
