@@ -1,3 +1,13 @@
+# v4.1.0
+## added
+1. can determine to enable show progress bar or not when filling the form.
+2. can set custom closed message.
+3. can determine to enable publishing summary.
+4. can determine to show link once after respondant submitting the form.
+   
+## fixed
+1. Fix issues about setting some form settings. (I found that it due to wrong business logic and call wrong method)
+
 # v4.0.0
 ## added
 1. can set form to collect email or not.
