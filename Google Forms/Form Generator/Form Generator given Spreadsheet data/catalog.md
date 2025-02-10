@@ -1,3 +1,18 @@
+# v4.0.0
+## added
+1. can set form to collect email or not.
+2. can set one respondant to submit one form at most once or not.
+3. can determine to shuffle question or not when filling the form.
+
+## fixed
+1. Fix issues about setting some form settings. (I found that it due to wrong business logic)
+
+## code
+see [version v4.0.0](https://github.com/40843245/AppScript-project/tree/main/Google%20Forms/Form%20Generator/Form%20Generator%20given%20Spreadsheet%20data/v4.0.0)
+
+## demo
+see [Demo project of Form Generator given SpreadSheet in AppScript in version v4.0.0](https://youtu.be/2TrHII9HyKU)
+
 # v3.3.0
 ## added
 1. can add item as video.
