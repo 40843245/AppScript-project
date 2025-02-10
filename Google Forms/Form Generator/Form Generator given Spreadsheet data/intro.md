@@ -285,3 +285,18 @@ The following table
 | `VIDEO` | ... | shocking party | lovelive|	`https://www.youtube.com/watch?v=ZhKF0Dh_Wig&list=RDZhKF0Dh_Wig&start_radio=1`.
 
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/a44d8400-0b0f-4248-aaae-a39b38838fec" />
+
+# v4.0.0
+1. One can determine to collect email in cell `L20`.
+2. One can determine that respondant submit the form at most once (identified by email) in cell `M20`.
+3. One can determine to shuffle questions in cell `N20`.
+
+
+The following table 
+
+<img width="1190" alt="image" src="https://github.com/user-attachments/assets/22573022-991e-4a1d-a7d2-2ac494028ebf" />
+
+will set the form as follows.
+
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/58dfa7ee-7396-4d2c-bea6-f6ff14b46400" />
+
