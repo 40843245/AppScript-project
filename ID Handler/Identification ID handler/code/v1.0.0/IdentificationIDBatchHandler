@@ -1,0 +1,76 @@
+class IdentificationIDBatchHandler{
+  constructor(fieldNameArray,tableData,fieldNoArray){
+    this.tableData = tableData;
+    this.fieldNameArray = fieldNameArray;
+
+    this.fieldNoArray = fieldNoArray;
+    this.containIdentificationIDArray = [];
+
+    this.batchValidateData();
+    this.writeData(SpreadsheetEnum.OUTPUT);
+  }
+
+  static isIdentificationIDValid(id){
+    const isValid = IdentificationIDHandler.isIdentificationIDValid(id);
+    return isValid;
+  }
+
+  static isIdentificationIDFormatValid(id){
+    const isValid = IdentificationIDHandler.isFormatValid(id);
+    return isValid;
+  }
+
+  writeData(sheetName){
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetName);
+    const fieldNameArray = this.fieldNameArray;
+    const fieldRanges = sheet.getRange(1,1,1,fieldNameArray.length);
+ 
+    // NOTE that 
+    // the `setValues` method will only accept for 2D array.
+    fieldRanges.setValues([fieldNameArray]);
+
+    const dataArray = this.containIdentificationIDArray;
+    const dataRanges = sheet.getRange(2,1,dataArray.length,dataArray[0].length);
+    
+    dataRanges.setValues(dataArray);
+  }
+
+  batchValidateData(){
+    const dataArray2D = this.tableData;
+    const dataArray2DLength = dataArray2D.length;
+    for(let i=0;i<dataArray2DLength;i++){
+      const dataArray = dataArray2D[i];
+      const dataArrayLength = dataArray.length;
+      let containIdentificationID = false;
+      for(let j=0;j<dataArrayLength;j++){
+        if(this.fieldNoArray.includes(j) == true){
+          const id = dataArray[j];
+          if(IdentificationIDBatchHandler.isIdentificationIDFormatValid(id) == true){
+            containIdentificationID = true;
+            break;
+          } 
+        }     
+      }
+
+      if(containIdentificationID == true){
+        this.containIdentificationIDArray.push(dataArray);
+      }
+    }
+  }
+}
+
+function testClassIdentificationIDBatchHandler(){
+  const dataSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SpreadsheetEnum.INPUT);
+  const dataRanges = dataSheet.getDataRange();
+  const tableData = dataRanges.getValues();
+  const fieldNoArray = [
+    FieldsColumnEnum.AUTH_CODE,
+    FieldsColumnEnum.USER_NAME,
+    FieldsColumnEnum.NICK_NAME,
+  ];
+
+  const fieldNameArray = tableData[0];
+  
+  const identificationIDBatchHandler = new IdentificationIDBatchHandler(fieldNameArray,tableData,fieldNoArray);
+
+}
